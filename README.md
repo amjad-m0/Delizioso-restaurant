@@ -1,59 +1,50 @@
-# Delizioso
+# 🍽️ Delizioso – Fine Dining Restaurant Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+Delizioso is a modern, responsive, and elegant restaurant website built using **Angular** and **TailwindCSS**.  
+This project is inspired by premium restaurants like [Nobu](https://www.noburestaurants.com/) and was crafted without a UI/UX designer to simulate real-world freelance challenges.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🌐 Live Preview
 
-```bash
-ng serve
-```
+> _(Add your live site link here, e.g., GitHub Pages / Netlify / Vercel)_
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📁 Pages & Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Page       | Description                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| 🏠 Home     | Hero section with background video, animated dish carousel, CTA & footer    |
+| 🍽 Menu     | Dynamic grid with categories (Starters / Mains / Desserts), image + price   |
+| ℹ️ About     | Restaurant story & values with responsive text-image layout                |
+| 📞 Contact   | Contact form, contact info & Google Map embed                              |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🧰 Tech Stack
 
-```bash
-ng generate --help
-```
+- **Angular 16+** – Application framework
+- **Tailwind CSS** – Styling with utility-first approach
+- **SplideJS** – Carousel for featured dishes
+- **Responsive Design** – Flexbox & Grid for all screen sizes
+- **Git + GitHub** – Version control & hosting
 
-## Building
+---
 
-To build the project run:
+## 🖼 Assets
 
-```bash
-ng build
-```
+- High-quality food images: [Pexels](https://pexels.com), [Unsplash](https://unsplash.com)
+- Hero background video: [Coverr](https://coverr.co) / [Mixkit](https://mixkit.co)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🚀 Getting Started
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Clone the repository and install dependencies:
 
 ```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/YOUR_USERNAME/delizioso.git
+cd delizioso
+npm install
+ng serve --open
