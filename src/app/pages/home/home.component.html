@@ -1,0 +1,111 @@
+<section class="relative h-screen w-full overflow-hidden">
+  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+    <source src="assets/videos/hero.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white text-center z-10 px-6">
+    <h1 class="text-5xl font-serif mb-4">Welcome to Delizioso</h1>
+    <p class="text-lg max-w-xl mb-6">Where every bite is an experience worth remembering.</p>
+    <a routerLink="/menu" class="bg-orange-600 hover:bg-orange-700 px-6 py-3 rounded-full font-semibold">View Menu</a>
+  </div>
+</section>
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-4xl font-serif text-center text-gray-900 mb-8">Just Opened</h2>
+    
+    <div id="just-opened-carousel" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <img src="assets/images/location1.jpg" class="w-full h-64 object-cover rounded">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Delizioso Dubai</h3>
+              <p class="text-gray-600">Fusion of modern design and Italian flavor.</p>
+            </div>
+          </li>
+          <li class="splide__slide grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <img src="assets/images/location2.jpg" class="w-full h-64 object-cover rounded">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Delizioso Tokyo</h3>
+              <p class="text-gray-600">Minimalist, serene, and absolutely delicious.</p>
+            </div>
+          </li>
+          <li class="splide__slide grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <img src="assets/images/location3.jpg" class="w-full h-64 object-cover rounded">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Delizioso New York</h3>
+              <p class="text-gray-600">Bold flavors, big city energy. A modern Manhattan vibe.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
+    
+    <!-- الصورة -->
+    <img src="assets/images/chef.jpg" alt="The Chef" class="w-full h-auto rounded shadow-lg">
+
+    <!-- النص -->
+    <div>
+      <h2 class="text-4xl font-serif text-gray-900 mb-4">The Chef’s Vision</h2>
+      <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+        At Delizioso, every dish is crafted with heart. Our executive chef combines generations of Italian tradition with a flair for innovation.
+      </p>
+      <p class="text-gray-600 text-base">
+        From sourcing fresh local ingredients to plating with perfection, each moment in our kitchen is a celebration of taste.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6 text-center mb-12">
+    <h2 class="text-4xl font-serif text-gray-900 mb-4">From the Kitchen</h2>
+    <p class="text-gray-600 max-w-xl mx-auto">
+      Explore our chef’s most celebrated creations, crafted with seasonal ingredients and plated to perfection.
+    </p>
+  </div>
+
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- طبق 1 -->
+    <div class="bg-gray-50 rounded shadow hover:shadow-md transition overflow-hidden">
+      <img src="assets/images/dish1.jpg" class="w-full h-60 object-cover">
+      <div class="p-6 text-left">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Truffle Risotto</h3>
+        <p class="text-gray-600 text-sm">Creamy risotto with shaved truffle and aged parmesan.</p>
+      </div>
+    </div>
+
+    <!-- طبق 2 -->
+    <div class="bg-gray-50 rounded shadow hover:shadow-md transition overflow-hidden">
+      <img src="assets/images/dish2.jpg" class="w-full h-60 object-cover">
+      <div class="p-6 text-left">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Sea Bass Carpaccio</h3>
+        <p class="text-gray-600 text-sm">Delicate slices of sea bass with citrus zest and microgreens.</p>
+      </div>
+    </div>
+
+    <!-- طبق 3 -->
+    <div class="bg-gray-50 rounded shadow hover:shadow-md transition overflow-hidden">
+      <img src="assets/images/dish3.jpg" class="w-full h-60 object-cover">
+      <div class="p-6 text-left">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Wagyu Tataki</h3>
+        <p class="text-gray-600 text-sm">Seared Wagyu beef with ponzu and garlic chips.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-orange-600 py-16 text-white text-center px-6">
+  <h2 class="text-4xl font-serif mb-4">Reserve Your Table Today</h2>
+  <p class="text-lg mb-6 max-w-2xl mx-auto">Let us serve you an unforgettable dining experience. Book your spot now.</p>
+  <a routerLink="/contact" class="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-full hover:bg-orange-100 transition">
+    Reserve Now
+  </a>
+</section>
